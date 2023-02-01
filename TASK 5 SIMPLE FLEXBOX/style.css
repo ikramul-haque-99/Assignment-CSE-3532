@@ -1,0 +1,35 @@
+.outgray {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #637076, #78868d, #808f96, #85949c);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(241,194,50,255);
+    padding: 10px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(241,194,50,255);
+    line-height: 50px;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.upper > div, .lower > div {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+}

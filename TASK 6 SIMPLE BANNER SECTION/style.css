@@ -1,0 +1,26 @@
+.red-color{
+    color: rgb(131, 68, 202);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.half-width img{
+    width: 130%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( rgb(136, 71, 186), rgb(25, 59, 213) );
+    padding: 10px 40px;
+    color:rgb(255, 243, 243);
+    font-weight: 700;
+    border-radius: 5px;
+}
